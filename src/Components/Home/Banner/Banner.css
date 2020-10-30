@@ -1,0 +1,40 @@
+.row{
+    display: flex;
+    width: 100%;
+}
+.col-6{
+    width:50%;
+}
+.title {
+    margin-top:200px;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+  .img{
+      margin-top:  58px;
+      
+  }
+  .header-ul {
+   
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-size: 28px;
+}
+  .header-ul li{
+    width:20px;
+    height: 20px;
+    padding: 40px 80px;
+    padding-left: 0px;
+   
+  }
+
+  .title button a{
+      text-decoration: none;
+      list-style-type:none;
+  }
