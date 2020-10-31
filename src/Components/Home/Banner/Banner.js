@@ -5,11 +5,11 @@ import {FaLinkedin,FaGithub,FaMailBulk } from "react-icons/fa";
 import me from '../../../Images/me.png';
 const Banner = () => {
     return (
-       <div className="header mb-0 ">
+       <div className="header mb-0 col-md-6">
           <div className="container"> <NavBar></NavBar></div>
           <div className="container">
                 <div className="row container ">
-                    <div className="col-6">
+                    <div className="col-sm-6">
                         <div className="header-content">
                             <div className="title">
                             <ul className="header-ul">
@@ -26,8 +26,8 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6 img ">
-                        <img src={me}/>
+                    <div className="col-sm-6 ">
+                        <img class='img-fluid'src={me}/>
                 </div>
                 </div>
             </div>

@@ -11,8 +11,8 @@ const Projects = () => {
             <div className="container mb-5">
             <h1 style={{color:'white'}}>My Recent works</h1> 
 <CardDeck className='mt-5'>
-  <Card>
-    <Card.Img variant="top" src={creative} />
+  <Card className='col-sm-6'>
+    <Card.Img variant="top" className='img-fluid' src={creative} />
     <Card.Body>
       <Card.Title>Cretiv Agency</Card.Title>
       <Card.Text>
