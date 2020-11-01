@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import img from "../../../Images/me.png";
 
-const NavBar = () => {
+const NavBarBlack = () => {
   return (
-    <nav className=" navbar navbar-expand-md fixed-top">
+    <nav className=" navbar navbar-expand-md   fixed-top">
       <div className="container-fluid">
         <button
           className="navbar-toggler"
@@ -17,14 +17,14 @@ const NavBar = () => {
           className="collapse navbar-collapse d-flex justify-content-between "
           id="collapse_target"
         >
-          <div>
-            <h4 style={{ color: "white" }}>
+          
+            <h4 style={{ color: "black" }}>
               Riduanul<span style={{ color: "red" }}>Haque</span>{" "}
             </h4>{" "}
-          </div>
-          <div>
-            <ul className="navbar-nav">
-              <li className="nav-item">
+          
+         
+            <ul className="navbar-nav " >
+              <li className="nav-item ">
                 <Link to="/"> Home</Link>
               </li>
               <li className="nav-item">
@@ -40,11 +40,11 @@ const NavBar = () => {
                 <Link to="/contact"> Contact</Link>
               </li>
             </ul>{" "}
-          </div>
+          
         </div>
       </div>
     </nav>
   );
 };
 
-export default NavBar;
+export default NavBarBlack;

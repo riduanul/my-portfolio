@@ -3,7 +3,7 @@
     width: 100%;
 }
 .col-6{
-    width:50%;
+    /* width:50%; */
 }
 .title {
     margin-top:200px;
@@ -13,7 +13,7 @@
     
 }
   .img{
-      margin-top:  58px;
+      margin-top: 58px;
       
   }
   .header-ul {
@@ -37,4 +37,8 @@
   .title button a{
       text-decoration: none;
       list-style-type:none;
+  }
+
+  .header-ul li {
+      color: white;
   }

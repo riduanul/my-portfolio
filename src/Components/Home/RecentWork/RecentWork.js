@@ -1,17 +1,17 @@
 import React from 'react';
-import './Projects.css'
+import './RecentWork.css'
 import {CardDeck,Card} from 'react-bootstrap'
 import creative from '../../../Images/creative.JPG'
 import Volunteer from '../../../Images/volunteer.JPG'
 import travelguru from '../../../Images/travelguru.JPG'
 
-const Projects = () => {
+const RecentWork = () => {
     return (
         <div className="">
             <div className="container mb-5">
             <h1 style={{color:'white'}}>My Recent works</h1> 
 <CardDeck className='mt-5'>
-  <Card className='col-sm-6'>
+  <Card>
     <Card.Img variant="top" className='img-fluid' src={creative} />
     <Card.Body>
       <Card.Title>Cretiv Agency</Card.Title>
@@ -20,8 +20,10 @@ const Projects = () => {
         Technologies: JavaScript, Reacj, Node.js, MongoDB, Html, Css. 
       </Card.Text>
     </Card.Body>
-    <Card.Footer className='bg-white '>
+    <Card.Footer className='bg-white text-center text-warning'>
       <small className="text-muted "><a target='_blank' href="https://creative-agency-f72c4.web.app/">Live</a></small>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <small className="text-muted"> <a target='_blank' href=" https://github.com/riduanul/creative-agency-client">Github</a></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -33,8 +35,10 @@ const Projects = () => {
           Technologies: JavaScript, Reacj, Node.js, MongoDB, Html, Css. 
       </Card.Text>
     </Card.Body>
-    <Card.Footer className='bg-white'>
-      <small className="text-muted"> <a target='_blank' href=" https://volunteer-network-309d5.web.app/">Live</a></small>
+    <Card.Footer className='bg-white text-center'>
+      <small className="text-muted"> <a target='_blank' href=" https://volunteer-network-309d5.web.app/">Live </a></small>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <small className="text-muted"> <a target='_blank' href=" https://github.com/riduanul/volunteer-network-client">Github</a></small>
     </Card.Footer>
   </Card>
   <Card>
@@ -47,8 +51,11 @@ const Projects = () => {
         show that equal height action.
       </Card.Text>
     </Card.Body>
-    <Card.Footer className='bg-white'>
+    <Card.Footer className='bg-white text-center'>
       <small className="text-muted"><a target ='_blank'href="https://traval-guru-64b7c.firebaseapp.com/home">Live</a></small>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <small className="text-muted"> <a target='_blank' href=" https://github.com/riduanul/traveller">Github</a></small>
+      
     </Card.Footer>
   </Card>
 </CardDeck>
@@ -58,4 +65,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default RecentWork;
